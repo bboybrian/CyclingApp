@@ -1,0 +1,29 @@
+.race_form {
+    grid-column: 1;
+    background: #282828;
+
+    width: 100%;
+    justify-self: center;
+    padding: 1% 4%;
+}
+
+.graph_container {
+    grid-column: 1;
+    background: #282828;
+
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+.race_form_contents {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.pad {
+    text-align: center;
+    padding-left: 1em;
+    background-color: #454545;
+}

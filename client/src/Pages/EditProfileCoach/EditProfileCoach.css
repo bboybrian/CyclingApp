@@ -1,0 +1,309 @@
+.profilebody {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-column: 1/5;
+    padding: 0.5em 0 0.5em 0;
+    border-bottom: 1px solid #333333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.editprofile_Container {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    transform: scale(0.9);
+    /* padding-top: 3%; */
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.page_title{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    padding-left: 9%;
+    font-weight: 600;
+}
+
+.editprofile_Form {
+    grid-column: 1;
+    background: #282828;
+
+    width: 100%;
+    justify-self: left;
+    padding: 3% 0;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.section_titles {
+    font-size: 30px;
+    color: #F6E00B;
+    text-align: left;
+    font-weight: 500;
+}
+
+.edit_profile_row {
+    padding-top:10px;
+    padding-bottom:15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: left;
+    /* transform: scale(0.9); */
+}
+
+.edit_profile_row_email {
+    padding-top:10px;
+    padding-bottom:15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: left;
+    /* transform: scale(0.9); */
+}
+
+.Form-Contents {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1em;
+    /* padding-left: 40px; */
+    /* padding-right: 45px; */
+    text-align: left;
+    max-width: 80%;
+    min-width: 80%;
+    justify-items: auto;
+}
+
+.coach_role {
+    max-width: 30%;
+    min-width: 30%;
+}
+
+.editprofile_text {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.editprofile_text.first_name {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.edit_profile_coach_email {
+    grid-column: 1;
+    grid-row: 2;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1em;
+    /* padding-left: 40px; */
+    /* padding-right: 45px; */
+    text-align: left;
+    max-width: 90%;
+    min-width: 90%;
+    justify-items: auto;
+}
+
+
+.editprofile_text.last_name {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.editprofile_text.dob {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.editprofile_text.experience {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.editprofile_text.trainingelevation {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.genderrolecontainer{
+    display: grid;
+    grid-template-columns: 3fr 4fr 1fr;
+}
+
+/* .genderrolecontainer.text{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.genderrolecontainer.form{
+    grid-column: 3;
+    grid-row: 2;
+} */
+
+.editprofile_text.gender {
+    grid-column: 1;
+}
+
+.editprofile_text.role {
+    grid-column: 2;
+}
+
+.editprofile_text.height {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.editprofile_text.weight {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.editprofile_text.ftp {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.editprofile_text.maxhr {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.Form-Contents.first_name {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.Form-Contents.last_name {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.dob_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    column-gap: 3%;
+}
+
+.edit_profile_month {
+    grid-column: 1;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    justify-items: auto;
+    transform: scale(1.1);
+    padding-top: 1%;
+}
+
+.edit_profile_day {
+    grid-column: 2;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    justify-items: auto;
+    transform: scale(1.1);
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.edit_profile_year {
+    grid-column: 3;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    justify-items: auto;
+    transform: scale(1.1);
+    padding-top: 2%;
+}
+
+.edit_profile_experience {
+    grid-column: 1;
+    grid-row: 2;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    justify-items: auto;
+    transform: scale(1.1);
+    padding-top: 1%;
+    padding-left: 3%;
+    max-width: 72%;
+    min-width: 72%;
+}
+
+.Form-Contents.trainingelevation {
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 75%;
+    min-width: 75%;
+}
+
+.editprofile_text.m {
+    padding-top: 15%;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.trainingelevationgrid {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    column-gap: 3%;
+}
+
+.edit_profile_gender {
+    grid-column: 1;
+    grid-row: 2;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    justify-items: auto;
+    transform: scale(1.1);
+    padding-top: 1%;
+    /* padding-left: 3%; */
+    max-width: 80%;
+    min-width: 80%;
+}
+
+.Form-Contents.role {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* .heightgrid {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    column-gap: 3%;
+}
+
+.weightgrid {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    column-gap: 3%;
+} */
+
+.Form-Contents.height {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 75%;
+    min-width: 75%;
+}
+
+.Form-Contents.weight {
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 75%;
+    min-width: 75%;
+}

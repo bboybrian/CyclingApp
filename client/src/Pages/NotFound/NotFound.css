@@ -1,0 +1,138 @@
+.navbar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* align-self: center;
+    justify-self: end;
+    
+    justify-content: space-between; */
+}
+
+.navbar_top_row {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.navbar_logout {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    text-align: center;
+    line-height: 240%;
+}
+
+.navbarbox {
+    width: 10em;
+    border: 1px solid #2c2c2c;
+    border-radius: 0px;
+    background-color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 240%;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.display_user_name {
+    grid-column: 1;
+    background-color: #F6E00B;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 8px;
+    font-weight: 600;
+}
+
+.navbarbox .dashboard {
+    grid-column: 1;
+}
+
+.navbarbox .profile {
+    grid-column: 2;
+}
+
+.navbarbox .athlete {
+    grid-column: 3;
+}
+
+.navbarbox .analytics {
+    grid-column: 4;
+}
+
+.navbarbox .compare {
+    grid-column: 5;
+}
+
+.navbarbuttons {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logodiv{
+    /* grid-column: 1/4; */
+    align-self: center;
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarwhole {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: end;
+    display: flex;
+}
+
+.selectedNavPage {
+    background-color: #413C03 !important;
+}
+
+.dashboardbody {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-column: 1/5;
+    padding: 0.5em 0 0.5em 0;
+    border-bottom: 1px solid #333333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.dashboard_Container {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    transform: scale(0.9);
+    /* padding-top: 3%; */
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.page_title{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    padding-left: 9%;
+    font-weight: 600;
+}
+
+.dashboard_Form {
+    grid-column: 1;
+    background: #282828;
+
+    width: 100%;
+    justify-self: left;
+    padding: 3% 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+    color: white;
+}

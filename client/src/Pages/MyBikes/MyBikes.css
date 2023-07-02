@@ -1,0 +1,347 @@
+.logodiv{
+    grid-column: 1/4;
+    align-self: center;
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarwhole {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: end;
+    display: flex;
+}
+
+.Page-Content {
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    grid-template-columns: 0.8fr 5fr 0.8fr;
+    min-width: 100vw;
+}
+
+.Page-Heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    align-self: center;
+    justify-self: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140.62%;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.Item-Name-Box {
+    grid-column: 2/3;
+    background: #282828;
+    border: 1px solid #F6E00B;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+}
+
+/*.Athlete-Box::-webkit-scrollbar {
+    width: 10px;
+}*/
+
+.Box-Header {
+    grid-row: 1/2;
+    width: 100%;
+    align-self: center;
+    justify-self: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.62%;
+    border-bottom: 1.5px solid #333333;;
+    color: #F6E00B;
+}
+
+.Add-Item {
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: start;
+}
+
+.Item-List {
+    padding-top: 8px;
+    grid-row: 3/4;
+}
+
+.Item-Container {
+    background: #202020;
+    border: 1px solid #9A9A9A;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.5fr 6fr 1.5fr 1.5fr;
+}
+
+.Item-Plus {
+    grid-column: 1/2;
+    width: 20px;
+    height: 20px;
+    background: #F6E00B;
+    color: black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 140.62%;
+    align-items: center;
+    text-align: center;
+    border: none
+}
+
+.Item-Name {
+    grid-column: 2/3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    align-self: center;
+    justify-self: start;
+}
+
+.Select-Item {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: end;
+}
+
+.Delete-Item {
+    grid-column: 4/5;
+    align-self: center;
+    justify-self: end;
+}
+
+.Item-Info-Hide {
+    display: none
+}
+
+.Item-Info-Show {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    background: #3D3D3D;
+    border: 1px solid #9A9A9A;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.Section-Heading {
+    grid-column: 1/5;
+    background-color: #333333;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.Col1 {
+    grid-column: 1/2;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Col2 {
+    grid-column: 2/3;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #ACB3BF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Col3 {
+    grid-column: 3/4;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Col4 {
+    grid-column: 4/5;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #ACB3BF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.CDA-Heading-1 {
+    grid-column: 1/2;
+    padding-top: 10px;
+    background-color: #333333;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.CDA-Heading-2 {
+    grid-column: 2/3;
+    background-color: #333333;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.CDA-Heading-3 {
+    grid-column: 3/4;
+    background-color: #333333;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.CDA-Heading-4 {
+    grid-column: 4/5;
+    background-color: #333333;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    border-top: 0.5px solid #ACB3BF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Modal-Heading {
+    grid-column: 1/5;
+    align-self: center;
+    justify-self: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140.62%;
+    color: white;
+}
+
+.Modal-Subheading {
+    grid-column: 1/5;
+    width: 100%;
+    align-self: center;
+    justify-self: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.62%;
+    border-bottom: 1.5px solid #333333;
+    color: #F6E00B;
+    padding-top: 15px
+}
+
+.Modal-Col1 {
+    grid-column: 1/2;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+.Modal-Col2 {
+    grid-column: 2/3;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+.Modal-Col3 {
+    grid-column: 3/4;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+.Modal-Col4 {
+    grid-column: 4/5;
+    text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+.Modal-Button-Col4 {
+    grid-column: 4/5;
+    align-self: center;
+    justify-self: end;
+    padding-top: 10px;
+}

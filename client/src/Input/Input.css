@@ -1,0 +1,12 @@
+.form-input {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 0.5em;
+    text-align: left;
+    background: #202020;
+    border: 1px solid #9A9A9A;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    line-height: 150%;
+}

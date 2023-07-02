@@ -1,0 +1,117 @@
+.primary {
+    width: 20vw;
+    max-width: 96px;
+    height: 35px;
+    border: 1px solid #9A9A9A;
+    border-radius: 5px;
+    background: #F6E00B;
+    color: black;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 140.62%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.secondary {
+    margin-right: 1vw;
+    width: 20vw;
+    max-width: 96px;
+    height: 35px;
+    border: 1px solid #9A9A9A;
+    border-radius: 5px;
+    background-color: black;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.form-large {
+    width: 100%;
+    padding: 0.75em;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.select-delete {
+    background: #3D3D3D;
+    border: 1px solid #8B8B8B;
+    border-radius: 5px;
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.62%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.add-button {
+    background: #F6E00B;
+    height: 35px;
+    width: 175px;
+    border-radius: 5px;
+
+    border: 1px solid #F6E00B;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    box-sizing: border-box;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.primary:hover {
+    transform: translateY(-2px);
+}
+
+.secondary:hover {
+    transform: translateY(-2px);
+}
+
+.form-large:hover {
+    transform: translateY(-2px);
+}
+
+.toolbar-button {
+    background: #202020;
+    border: 1px solid #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.62%;
+    color: white;
+    height: 100%;
+}
+
+.expanded_button {
+    width: 100%;
+    height: 40px;
+    background: #F6E00B;
+    color: black;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}

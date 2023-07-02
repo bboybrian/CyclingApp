@@ -1,0 +1,256 @@
+@media only screen and (min-width: 769px) {
+    .Body {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 6fr 1fr;
+        grid-template-rows: 1fr 8fr 1fr;
+        grid-row-gap: 3em;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+	.LoginPage_Container {
+        grid-column: 2;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        justify-content: center;
+        transform: scale(0.9);
+    }
+    
+    .Container {
+        grid-column: 2;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        max-height: 100vh;
+    }
+
+    .Container_Left {
+        grid-column: 1;
+        border: 1px solid #282828;
+        border-radius: 10px 0px 0px 10px;
+        box-sizing: border-box;
+        padding: 3em 3em 3em 3em;
+        height: 100%;
+        width: 100%;
+        justify-self: right;
+    }
+
+    .LoginPage_Form {
+        grid-column: 2;
+        /* grid-row: 2/3; */
+        background: #282828;
+        border: 1px solid #282828;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 10px 10px 0px;
+        width: 100%;
+        justify-self: left;
+        padding: 8% 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Body {
+        background-color: black;
+        grid-template-rows: 1fr 8fr 1fr;
+        grid-row-gap: 3em;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+	.LoginPage_Container {
+        display: inline-flex;
+        transform: scale(0.9);
+        width: 80%
+    }
+    
+    .Container {
+        justify-content: center;
+        max-height: 100vh;
+    }
+
+    .Container_Left {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .LoginPage_Form {
+        background: #282828;
+        border: 1px solid #282828;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px 10px 10px 10px;
+        width: 100%;
+        padding: 8% 0;
+    }
+}
+
+.Topnav {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-column: 1/5;
+    padding: 0.5em 0 0.5em 0;
+    border-bottom: 1px solid #333333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.TopnavContents {
+    grid-column: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Img1 {
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: start;
+    height: 90%;
+}
+
+.Top-Buttons {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.LoginPage_CyclistPicture {
+    grid-column: 1;
+    border: 1px solid #282828;
+    border-radius: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    padding: 3em 3em 3em 3em;
+    height: 100%;
+    width: 100%;
+    justify-self: right;
+}
+
+.Img2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+/*.Img3 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background: transparent;
+}*/
+
+.Login-Header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Form-Contents {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1em;
+    /* padding-left: 40px; */
+    /* padding-right: 45px; */
+    text-align: left;
+    max-width: 80%;
+    min-width: 80%;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+}
+
+.Password-Entry {
+    padding-top: 20px;
+}
+
+.Forgot-Link {
+    font-size: small;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.Submit-Container {
+    padding-top: 12px;
+}
+
+.DivOr {
+    padding-top: 5px;
+}
+
+.Google-Signup {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #1372A7;
+    font-weight: 600;
+    padding: 0.6em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 88%;
+}
+
+.Google-Signup:hover {
+    cursor: pointer;
+}
+
+.Register:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-column: 1/5;
+    padding: 0.5em 0 0.5em 0;
+    border-top: 1px solid #333333;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.FooterContents {
+    grid-column: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Copyright {
+    grid-column: 2/3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140.62%;
+    align-self: center;
+    justify-self: start;
+    align-items: center;
+    color: #FFFFFF;
+}
